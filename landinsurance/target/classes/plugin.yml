@@ -1,0 +1,14 @@
+main: com.landinsurance.insurance
+version: 1.0.0
+load: STARTUP
+name: landinsurance
+author: orkasool
+api-version: 1.21
+depend: [CoreProtect]
+commands:
+  insurance:
+    description: Insure your land to protect it from griefing
+    permission: landinsurance.admin
+permissions:
+  landinsurance.admin:
+    default: true
